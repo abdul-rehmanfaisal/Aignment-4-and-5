@@ -4,7 +4,7 @@ import os
 
 # Page Styling
 st.set_page_config(
-    page_title="Areeba's Library Manager",
+    page_title="Abdul Rehman's Library Manager",
     page_icon="📚",
     layout="wide"
 )
@@ -64,7 +64,7 @@ def save_library(library):
 library = load_library()
 
 # Streamlit UI
-st.title("📚Library Manager by Areeba Faisal")
+st.title("📚Library Manager by Abdul Rehman Faisal")
 
 # Navigation menu
 menu = st.sidebar.radio("Menu", ["Add Book", "Remove Book", "Search Book", "View All Books", "Statistics"])
@@ -171,4 +171,4 @@ elif menu == "Statistics":
         st.warning("⚠️ No books in the library yet.")
 
 # Footer
-st.sidebar.info("📌 Developed by Maryam Shahid ❤️ ")
+st.sidebar.info("📌 Developed by Abdul Rehman💻 ")
